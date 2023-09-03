@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 		s += v[i];
 	}
 	
-	printf ("Resultado: %f\n", s/5);
+	printf ("Resultado: %.2f\n", s/5);
 	
 	return 0;
 }
