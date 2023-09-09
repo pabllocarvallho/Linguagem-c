@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
+#include <locale.h> //necessario o uso de setlocale()
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 int main() {
 	
-	setlocale(LC_ALL, "Portuguese");
+	setlocale(LC_ALL, "Portuguese"); /* Identificamos como portuguese porque o windows usa assim, 
+	para usar em linox e outros sistemas pesquisar. */
 	
 	int x, valor=1, divisores=0;
 	
