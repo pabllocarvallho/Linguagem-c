@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+
 int main()
 {
     /*Desenvolva um programa para comparar a idade de Pedro e de Joana e informar quem é o mais velho.

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1700695684 source:c:\users\pabll\onedrive\Área de trabalho\sistema-de-informação\linguagem c\linguagem-c\faculdade\trabalho-final\ex004\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
