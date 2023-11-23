@@ -28,6 +28,12 @@ int main()
 
             scanf("%d", &n[i][j]);
 
+            if (n[i][j] < 0 || n[i][j] > 10){
+                printf("Nota irregular! Digite novamente. \n");
+                i--;
+                continue;
+            }
+
             media = media + n[i][j];
 
             soma = soma + n[i][j];
