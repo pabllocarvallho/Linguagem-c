@@ -11,7 +11,8 @@ int main()
     a)  a soma das notas;
     b)  a média das notas;
     c)  a maior nota;
-    d)  a menor nota. */
+    d)  a menor nota.
+    Assuma que as notas são informadas corretamente no intervalo de 1 a 10. */
 
     setlocale(LC_ALL, "Portuguese");
 
@@ -28,6 +29,7 @@ int main()
 
             scanf("%d", &n[i][j]);
 
+            //verifica se a nota esta entre 0 e 10.
             if (n[i][j] < 0 || n[i][j] > 10){
                 printf("Nota irregular! Digite novamente. \n");
                 i--;
@@ -47,7 +49,7 @@ int main()
             }
         }
     }
-    printf("A média é: %f\n", media / 10);
+    printf("A média é: %2.f\n", media / 10);
     printf("A soma é igual a: %d\n", soma);
     printf("A maior nota é: %d\n", maior);
     printf("A menor nota é: %d\n", menor);
