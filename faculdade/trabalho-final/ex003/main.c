@@ -13,21 +13,21 @@ int main()
 
     setlocale(LC_ALL, "Portuguese");
 
-    float i, sinic = 1000, aumento_anual, sfinal, ano = 1996;
+    float i = 1.5, sinic = 1000, aumento_anual, sfinal, ano;
 
     printf("Histórico Salarial \n");
 
     printf("Salário inicial: %2.f R$\n", sinic);
 
-    for (i = 1.5; i < 7.6; i += 1.5){
+    for (ano = 1996; ano < 2001; ano++){
 
-        aumento_anual = (sinic * i) /100 ;
+        aumento_anual = (sinic * i) / 100 ;
         sfinal = sinic + aumento_anual;
 
         printf("Salário equivalente a %2.f: %2.f R$\n", ano, sfinal);
 
         sinic = sfinal;
-        ano ++;
+        i = i * 2;
     }
 
 
